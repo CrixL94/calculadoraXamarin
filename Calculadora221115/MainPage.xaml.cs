@@ -44,7 +44,15 @@ namespace Calculadora221115
 
         private void clickBorrar(object sender, EventArgs e)
         {
-
+            if (txtResultado.Text.Length > 0)
+            {
+                txtResultado.Text = txtResultado.Text.Substring
+                (0, txtResultado.Text.Count() - 1);
+            }
+            else
+            {
+                txtResultado.Text = "0";
+            }
         }
 
 

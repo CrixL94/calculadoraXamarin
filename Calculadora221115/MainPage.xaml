@@ -28,7 +28,7 @@
 
         <Button Clicked="clickLimpiar" Text="CE" Grid.Column="0" Grid.Row="1" FontSize="50"></Button>
         <Button Clicked="clickPorcentaje" Text="%" Grid.Column="1" Grid.Row="1" FontSize="50"></Button>
-        <Button Text="ER" Grid.Column="2" Grid.Row="1" FontSize="50"></Button>
+        <Button Clicked="clickBorrar" Text="ER" Grid.Column="2" Grid.Row="1" FontSize="50"></Button>
         <Button Clicked="clickMultiplicar" Text="*" Grid.Column="3" Grid.Row="1" FontSize="50"></Button>
 
         <Button Clicked="clickNumero" Text="7" Grid.Column="0" Grid.Row="2" FontSize="50"></Button>
