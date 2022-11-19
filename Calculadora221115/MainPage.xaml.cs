@@ -93,6 +93,10 @@ namespace Calculadora221115
 
         private void clickIgual(object sender, EventArgs e)
         {
+            if(txtResultado.Text == "")
+            {
+                txtResultado.Text = "0";
+            }
             num2 = Double.Parse(txtResultado.Text);
 
             double operacionFinal = 0;
